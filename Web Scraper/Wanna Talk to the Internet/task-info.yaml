@@ -47,6 +47,9 @@ files:
 - name: scraper.py
   visible: true
   learner_created: false
+- name: README.md
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/145/stages/781/implement#comment
 status: Solved
 feedback:
