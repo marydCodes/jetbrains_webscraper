@@ -3,7 +3,7 @@ hyperskill_project:
   ide_files: https://stepik.org/media/attachments/lesson/455321/additional_files.json
   is_template_based: false
   use_ide: true
-update_date: Thu, 01 Jan 1970 00:00:00 UTC
+update_date: Mon, 19 Apr 2021 18:14:09 UTC
 stages:
 - id: 781
   step: 11755
@@ -103,8 +103,8 @@ topics:
     theory_id: 7536
   - title: HTML page structure
     theory_id: 6491
-  - title: XML
-    theory_id: 6901
+  - title: 'BeautifulSoup: working with HTML'
+    theory_id: 10209
   2:
   - title: Binary numbers
     theory_id: 5544
