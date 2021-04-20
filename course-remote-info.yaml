@@ -3,14 +3,14 @@ hyperskill_project:
   ide_files: https://stepik.org/media/attachments/lesson/455321/additional_files.json
   is_template_based: false
   use_ide: true
-update_date: Mon, 19 Apr 2021 18:14:09 UTC
+update_date: Tue, 20 Apr 2021 18:15:24 UTC
 stages:
 - id: 781
   step: 11755
   is_completed: true
 - id: 782
   step: 11756
-  is_completed: false
+  is_completed: true
 - id: 783
   step: 11757
   is_completed: false
@@ -113,7 +113,7 @@ topics:
   - title: Units of information
     theory_id: 6865
   - title: Files
-    theory_id: 6989
+    theory_id: 13025
   - title: Files in Python
     theory_id: 8691
   - title: Writing files
