@@ -119,6 +119,237 @@ files:
     if __name__ == '__main__':
         WebScraperTest().run_tests()
   learner_created: false
+- name: source.html
+  visible: true
+  text: |
+    <html>
+    <head>
+      <title>warming up</title>
+      <link rel="stylesheet" type="text/css" href="../style.css">
+    </head>
+    <body>
+    <center>
+    <img src="calc.jpg"><br>
+    <font color="gold">
+    <p>Hint: try to change the URL address.
+    </body>
+    </html>
+  learner_created: true
+- name: WHO_approval_of_Chinese_CoronaVac_COVID_vaccine_will_be_crucial_to_curbing_pandemic.txt
+  visible: true
+  text: "China’s CoronaVac COVID-19 vaccine is already in use in the Philippines,\
+    \ among many other countries.Credit: Ezra Acayan/Getty\n\n\nThe World Health Organization\
+    \ (WHO) has approved a second Chinese vaccine for emergency use. CoronaVac was\
+    \ found to be 51% effective at preventing COVID-19 in late-stage trials, and researchers\
+    \ say it will be key to curbing the pandemic.This overall protection is lower\
+    \ than that provided by the seven other vaccines already listed by the WHO. But,\
+    \ importantly, trials suggest that CoronaVac — an inactivated-virus vaccine produced\
+    \ by Beijing-based company Sinovac — is 100% effective at preventing severe disease\
+    \ and death.“CoronaVac will significantly contribute to the global fight against\
+    \ COVID-19 as a safe and moderately effective SARS-CoV-2 vaccine,” says Murat\
+    \ Akova, a clinical researcher in infectious diseases at Hacettepe University\
+    \ in Ankara.Growing importanceCoronaVac’s approval, on 1 June, came about a month\
+    \ after the WHO listed another Chinese vaccine, made in Beijing by state-owned\
+    \ firm Sinopharm, which showed an efficacy of 79% against symptomatic disease.\
+    \ Both vaccines are already used widely around the world, and are driving China’\
+    s massive internal immunization campaign.CoronaVac is sustaining vaccination campaigns\
+    \ in more than 40 countries, such as Chile and Botswana. Globally, more than 600\
+    \ million doses have been delivered. Sinopharm's vaccine has been approved in\
+    \ many more nations. But WHO emergency approval could now facilitate the further\
+    \ distribution of both vaccines to low-income countries, through the COVID-19\
+    \ Vaccines Global Access (COVAX) initiative. \n\nChina’s COVID vaccines are going\
+    \ global — but questions remain\nA spokesperson for COVAX member Gavi, the Vaccine\
+    \ Alliance, in Geneva, Switzerland, says: “Gavi welcomes news that [CoronaVac]\
+    \ has been granted WHO Emergency Use Listing, as this means the world has yet\
+    \ another safe and effective tool in the fight against this pandemic.”The WHO’\
+    s efficacy estimate of 51% was based on data from late-stage trials among health-care\
+    \ workers in Brazil, posted online as a preprint1 in April. Of the 9,823 participants\
+    \ included in the analysis, 253 had COVID-19 — 85 in the vaccinated group and\
+    \ 168 among those who received the placebo. None of the vaccinated volunteers\
+    \ was hospitalized or died owing to COVID-19. Smaller, late-stage trials in Indonesia\
+    \ and Turkey have shown higher efficacies of up to 84%.Preliminary findings from\
+    \ a post-trial study of 2.5 million people in Chile estimated that CoronaVac was\
+    \ 67% effective at preventing COVID-19, and 80% effective at preventing death\
+    \ from the disease, despite the presence of the Alpha (B.1.1.7) and Gamma (P.1)\
+    \ variants of the virus SARS-CoV-2.Pandemic game changerPreliminary results detailed\
+    \ at a press conference in Brazil on Tuesday, from a trial in the town of Serrana,\
+    \ suggest that CoronaVac could make a significant dent in the pandemic. The Butantan\
+    \ Institute in São Paulo conducted the study, in which almost the entire adult\
+    \ population of Serrana was vaccinated with CoronaVac. It found that the vaccine\
+    \ significantly reduced cases of COVID-19, hospitalizations and deaths.The fact\
+    \ that CoronaVac can protect an entire town, despite nearly 40% of the population\
+    \ commuting daily to areas where the pandemic was raging, is “remarkable evidence”\
+    \ that this vaccine could be “a game changer in controlling the pandemic”, says\
+    \ trial leader Ricardo Palacios, medical director of clinical research at the\
+    \ Butantan Institute.Both of the approved Chinese vaccines use established technology\
+    \ based on inactivated virus and can be stored at fridge temperatures, which makes\
+    \ them easy to distribute in resource-poor settings — but these kinds of COVID-19\
+    \ vaccine seem to offer less protection against the disease than do mRNA vaccines,\
+    \ such as that made by pharmaceutical company Pfizer in New York City and biotechnology\
+    \ firm BioNTech in Mainz, Germany, and the one made by biotech company Moderna\
+    \ in Cambridge, Massachusetts. Technology challengeResearchers say this could\
+    \ be due to the technology itself. The vaccines use a killed version of SARS-CoV-2\
+    \ to induce the human body to make antibodies against many regions of the virus.\
+    \ But only some of these antibodies are effective at disabling the virus, says\
+    \ Gagandeep Kang, a virologist at the Christian Medical College in Vellore, India,\
+    \ who also advises the WHO on immunization.\n\nMix-and-match COVID vaccines trigger\
+    \ potent immune response\nOther platforms induce more targeted responses against\
+    \ specific parts of the virus, which might be why they are more effective. The\
+    \ mRNA vaccines encode the ‘spike’ protein that SARS-CoV-2 uses to enter cells,\
+    \ so they trigger high numbers of antibodies that block that protein.Most COVID-19\
+    \ vaccines are given in two doses, and studies are under way to assess whether\
+    \ individuals will need to get booster shots after that. This question might be\
+    \ especially relevant for those who receive inactivated-virus vaccines such as\
+    \ CoronaVac and Sinopharm’s shot because they produce fewer antibodies, scientists\
+    \ say. But the priority for now should be to get as many people vaccinated with\
+    \ their first two doses as possible, says Kang.The other vaccines that the WHO\
+    \ has approved for emergency use are the Moderna and Pfizer–BioNTech shots, as\
+    \ well as those made by Johnson & Johnson and the University of Oxford and AstraZeneca,\
+    \ and a version of the Oxford–AstraZeneca vaccine known as Covishield, which is\
+    \ produced by the Serum Institute of India in Pune."
+  learner_created: true
+- name: Antibodyladen_nasal_spray_could_provide_COVID_protection_—_and_treatment.txt
+  visible: true
+  text: |-
+    Antibodies swarm a SARS-CoV-2 particle (artist’s impression). A bioengineered antibody can block the virus from taking hold in the lungs of mice.Credit: KTSDesign/Science Photo Library
+
+
+    A nasal spritz of a designer antibody offers strong protection against variants of the coronavirus SARS-CoV-2 — at least in mice1.Since the early days of the pandemic, scientists have been developing antibodies as treatments for COVID-19. Today, several such antibodies are in late-stage clinical trials, and a handful have been approved for emergency use by regulatory agencies in the United States and elsewhere.Among doctors, however, antibody treatments have not been very popular, says Zhiqiang An, an antibody engineer at the University of Texas Health Science Center at Houston. That’s partly because those available are delivered through intravenous infusions rather than directly to the respiratory tract, where the virus is mainly found — so it takes high doses for them to be effective. Another challenge is the emergence of SARS-CoV-2 variants that seem to be resistant to some existing antibodies.An and his colleagues set out to engineer an antibody that could be delivered directly into the nose. They scanned a library of antibodies from healthy humans and zeroed in on those that were able to recognize a component of SARS-CoV-2 that the virus uses to latch on to and enter cells2. Among the promising candidates were IgG antibodies, which are relatively slow to appear after an infection but are precisely tailored to the invading pathogen.
+
+    Rogue antibodies could be driving severe COVID-19
+    The team stitched IgG fragments targeting SARS-CoV-2 to a different type of molecule: IgM antibodies, which act as speedy first-responders to a broad range of infection. The engineered IgMs had a much stronger ‘neutralizing’ effect against more than 20 variants of SARS-CoV-2 than did the IgGs alone. When squirted into the noses of mice either six hours before or six hours after infection, the engineered IgMs sharply reduced the amount of virus in the rodents’ lungs two days after infection, the team reports in Nature1.This work is a “big feat of engineering”, says Guy Gorochov, an immunologist at Sorbonne University in Paris. But he adds that there are open questions, such as how long these antibodies will linger in humans.An envisions these antibodies as a kind of chemical mask that could be used by anyone who has been exposed to SARS-CoV-2, and as an extra line of defence for people who might not be fully protected by vaccines. Because IgM molecules are relatively stable, it might be feasible to formulate them into a nasal spray to be bought at a pharmacy and kept for emergency use, An adds.IGM Biosciences, a biotechnology company in Mountain View, California, that collaborated in An’s study, will test this antibody in clinical trials.
+  learner_created: true
+- name: A_complete_human_genome_sequence_is_close_how_scientists_filled_in_the_gaps.txt
+  visible: true
+  text: |-
+    Visualization of sections of the human genome sequence at the Wellcome Sanger Institute near Cambridge, UK.Credit: James King-Holmes/Science Photo Library
+
+
+    When the sequencing of the human genome was announced two decades ago by the Human Genome Project and biotech firm Celera Genomics, the sequence was not truly complete. About 15% was missing: technological limitations left researchers unable to work out how certain stretches of DNA fitted together, especially those where there were many repeating letters (or base pairs). Scientists solved some of the puzzle over time, but the most recent human genome, which geneticists have used as a reference since 2013, still lacks 8% of the full sequence.Now, researchers in the Telomere-to-Telomere (T2T) Consortium, an international collaboration that comprises around 30 institutions, have filled in those gaps. In a 27 May preprint1 entitled ‘The complete sequence of a human genome’, genomics researcher Karen Miga at the University of California, Santa Cruz, and her colleagues report that they’ve sequenced the remainder, in the process discovering about 115 new genes that code for proteins, for a total of 19,969.
+
+
+
+
+
+
+
+
+
+    “It’s exciting to have some resolution to the problem areas,” says Kim Pruitt, a bioinformatician at the US National Center for Biotechnology Information in Bethesda, Maryland, who calls the result a “significant milestone”.New sequencing technologyThe newly sequenced genome — dubbed T2T-CHM13 — adds nearly 200 million base pairs to the 2013 version of the human genome sequence.This time, instead of taking DNA from a living person, the researchers used a cell line derived from what’s known as a complete hydatidiform mole, a type of tissue that forms in humans when a sperm inseminates an egg with no nucleus. The resulting cell contains chromosomes only from the father, so the researchers don’t have to distinguish between two sets of chromosomes from different people.Miga says the feat probably wouldn’t have been possible without new sequencing technology from Pacific Biosciences in Menlo Park, California, which uses lasers to scan long stretches of DNA isolated from cells — up to 20,000 base pairs at a time. Conventional sequencing methods read DNA in chunks of only a few hundred base pairs at a time, and researchers reassemble these stretches like puzzle pieces. The larger pieces are much easier to put together, because they are more likely to contain sequences that overlap.T2T-CHM13 is not the last word on the human genome, however. The T2T team had trouble resolving a few regions on the chromosomes, and estimates that about 0.3% of the genome might contain errors. There are no gaps, but Miga says quality-control checks have proved difficult in those areas. And the sperm cell that formed the hydatidiform mole carried an X chromosome, so the researchers have not yet sequenced a Y chromosome, which typically triggers male biological development.Hundreds of genomes to followT2T-CHM13 represents only one person’s genome. But the T2T Consortium has teamed up with a group called the Human Pangenome Reference Consortium, which aims over the next 3 years to sequence more than 300 genomes from people all over the world. Miga says that the teams will be able to use T2T-CHM13 as a reference to understand which parts of the genome tend to differ between individuals. They also plan to sequence an entire genome that contains chromosomes from both parents, and Miga’s group has been working on sequencing the Y chromosome, using the same new methods to help fill gaps.Miga expects that genetics researchers will quickly find out whether any of the newly sequenced areas and possible genes are associated with human diseases. “When the human genome came out, we didn’t have the tools poised and ready to go,” she says, but information about the function of the newly sequenced genes should come much faster now, because “we’ve built up a ton of resources”.She hopes that future human genome sequences will cover everything, including the newly sequenced sections — not just the parts that are easy to read. This should be easier now that the reference genome has been completed and some of the technical snags have been worked out. “We need to reach a new standard in genomics where this isn’t special, but routine,” she says.
+  learner_created: true
+- name: The_perfect_storm_lax_social_distancing_fuelled_a_coronavirus_variants_Brazilian_surge.txt
+  visible: true
+  text: "A COVID-19 intensive care unit in Rio De Janeiro.Credit: Fabio Teixeira/Anadolu\
+    \ Agency via Getty\n\n\nThe coronavirus variant behind Brazil’s ferocious second\
+    \ wave of COVID-19 emerged, in part, because of relaxed social distancing, according\
+    \ to an analysis of viral sequences from the outbreak’s epicentre.In late 2020,\
+    \ researchers first spotted the P.1 variant — also called Gamma — in people who\
+    \ returned to Japan from Manaus, the capital of Brazil’s Amazonas state. Since\
+    \ P.1 emerged, scientists have found evidence that it is more transmissible than\
+    \ some other variants, and evades antibodies more easily. Infections caused by\
+    \ the variant overwhelmed Manaus, which had already experienced one of the world’\
+    s highest documented rates of SARS-CoV-2 infection in its first wave.“What we\
+    \ saw was a collapse even harder than the one we had before, like something out\
+    \ of a horror movie. It’s hard to describe what happened in Manaus,” says Felipe\
+    \ Gomes Naveca, a virologist who co-led the Nature Medicine study1, and who works\
+    \ at the city’s Leônidas and Maria Deane research centre, part of the Oswaldo\
+    \ Cruz Foundation (Fiocruz) based in Rio de Janeiro.To chart the rise of P.1,\
+    \ a team led by Gomes Naveca and Gonzalo Bello, a virologist at the Oswaldo Cruz\
+    \ Institute in Rio de Janeiro, another part of the Fiocruz foundation, sequenced\
+    \ the genomes of 250 SARS-CoV-2 samples collected from across Amazonas between\
+    \ March 2020 and January 2021, and conducted more limited genetic testing for\
+    \ P.1 on hundreds more samples.The team’s analysis found that the prevalence of\
+    \ P.1 rose with breathtaking swiftness in Amazonas, the variant quickly replacing\
+    \ other circulating lineages. There was no sign of the variant in 355 samples\
+    \ from November 2020, but it accounted for nearly three-quarters of samples by\
+    \ mid-January 2021.\n \nWhat scientists know about new, fast-spreading coronavirus\
+    \ variants\nThe rise of P.1 coincided with reduced social distancing in Manaus\
+    \ and the rest of Amazonas, the researchers found. This might have been linked\
+    \ to Christmas and New Year’s holidays, as well as to municipal elections in November.\
+    \ The researchers think that these potential super-spreading events, combined\
+    \ with the variant’s heightened transmissibility, helped P.1 to flourish.In another\
+    \ study, posted as a preprint to the virological.org discussion forum last month2,\
+    \ the same team found that variants carrying many of the same worrying mutations\
+    \ as P.1 circulated in Amazonas for months, without catalysing a second wave.\
+    \ That finding has not yet been peer reviewed.Bello suspects that these ‘P.1-like’\
+    \ variants are also highly transmissible, but that it was periods of lax social\
+    \ distancing that caused P.1 to explode. “You need these mutations combined with\
+    \ epidemiological factors, then you have the perfect storm.”Tulio de Oliveira,\
+    \ a bioinformatician and director of the KwaZulu-Natal Research Innovation and\
+    \ Sequencing Platform in Durban, South Africa, says that the research shows how\
+    \ teams in the global south can lead cutting-edge genomic epidemiology investigations.\
+    \ Tackling the pandemic, he notes, is helping local networks to flourish. “What\
+    \ we want to see in these papers going forward is that they can do this much more\
+    \ quickly.”"
+  learner_created: true
+- name: stage3.py
+  visible: true
+  text: |-
+    import requests
+    import json
+    from bs4 import BeautifulSoup
+
+    url = input("Input the URL: ")
+    # url = 'https://www.imdb.com/title/tt0080684/' #video.movie
+    # url = 'https://www.imdb.com/title/tt10048342/' #video.tv_show
+    # url = 'https://www.imdb.com/name/nm0001191/' #actor
+    # url = "https://www.google.com/"
+
+
+    r = requests.get(url, headers={'Accept-Language': 'en-US,en;q=0.5'})
+    page_content = requests.get(url).content
+    print(r.status_code)
+
+    if r.status_code == 200:
+        file = open('source.html', 'wb')
+        file.write(page_content)
+        file.close()
+        print("Content saved.")
+    else:
+        print(f"The URL returned {r.status_code}")
+  learner_created: true
+- name: README.md
+  visible: true
+  text: |-
+    ## About
+    You will create a function that takes a website address and a number of webpages as input arguments and then goes all over the website saving every news article on the page to a separate .txt file on your computer.
+    ### Learning outcomes
+    After finishing the project, you’ll know how to send HTTP-requests and process the responses, how to work with an external library, library documentation, and how to use it for parsing the website data. You will also find out how to make your program save results to a file with the help of Python.
+  learner_created: true
+- name: stage2.py
+  visible: true
+  text: |-
+    import requests
+    import json
+    from bs4 import BeautifulSoup
+
+
+    url = input()
+    #url = 'https://www.imdb.com/title/tt0080684/' #video.movie
+    #url = 'https://www.imdb.com/title/tt10048342/' #video.tv_show
+    #url = 'https://www.imdb.com/name/nm0001191/' #actor
+    #url = "https://www.google.com/"
+
+
+    r = requests.get(url, headers={'Accept-Language': 'en-US,en;q=0.5'})
+    soup = BeautifulSoup(r.content, 'html.parser')
+
+    title = soup.title.text
+    metatags = soup.find("meta", property = "og:type")
+    metacontent = metatags["content"]
+    a = soup.find("meta", property="og:description")
+    description = a['content']
+    a_dict = {}
+
+    if ".movie" in metacontent or ".tv_show" in metacontent:
+        print(metacontent)
+        a_dict["title"] = title
+        a_dict["description"] = description
+
+        print(a_dict)
+    else:
+        print("Invalid movie page!")
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/145/stages/785/implement#comment
 status: Unchecked
 record: -1

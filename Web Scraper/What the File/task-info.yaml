@@ -72,6 +72,15 @@ files:
     ### Learning outcomes
     After finishing the project, you’ll know how to send HTTP-requests and process the responses, how to work with an external library, library documentation, and how to use it for parsing the website data. You will also find out how to make your program save results to a file with the help of Python.
   learner_created: true
+- name: stage2.py
+  visible: true
+  learner_created: true
+- name: source.html
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/145/stages/783/implement#comment
-status: Unchecked
-record: -1
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 07 Jun 2021 12:14:20 UTC
+record: 3

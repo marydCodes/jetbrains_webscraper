@@ -109,6 +109,82 @@ files:
     if __name__ == '__main__':
         WebScraperTest().run_tests()
   learner_created: false
+- name: source.html
+  visible: true
+  text: |
+    <html>
+    <head>
+      <title>warming up</title>
+      <link rel="stylesheet" type="text/css" href="../style.css">
+    </head>
+    <body>
+    <center>
+    <img src="calc.jpg"><br>
+    <font color="gold">
+    <p>Hint: try to change the URL address.
+    </body>
+    </html>
+  learner_created: true
+- name: README.md
+  visible: true
+  text: |-
+    ## About
+    You will create a function that takes a website address and a number of webpages as input arguments and then goes all over the website saving every news article on the page to a separate .txt file on your computer.
+    ### Learning outcomes
+    After finishing the project, you’ll know how to send HTTP-requests and process the responses, how to work with an external library, library documentation, and how to use it for parsing the website data. You will also find out how to make your program save results to a file with the help of Python.
+  learner_created: true
+- name: stage2.py
+  visible: true
+  text: |-
+    import requests
+    import json
+    from bs4 import BeautifulSoup
+
+
+    url = input()
+    #url = 'https://www.imdb.com/title/tt0080684/' #video.movie
+    #url = 'https://www.imdb.com/title/tt10048342/' #video.tv_show
+    #url = 'https://www.imdb.com/name/nm0001191/' #actor
+    #url = "https://www.google.com/"
+
+
+    r = requests.get(url, headers={'Accept-Language': 'en-US,en;q=0.5'})
+    soup = BeautifulSoup(r.content, 'html.parser')
+
+    title = soup.title.text
+    metatags = soup.find("meta", property = "og:type")
+    metacontent = metatags["content"]
+    a = soup.find("meta", property="og:description")
+    description = a['content']
+    a_dict = {}
+
+    if ".movie" in metacontent or ".tv_show" in metacontent:
+        print(metacontent)
+        a_dict["title"] = title
+        a_dict["description"] = description
+
+        print(a_dict)
+    else:
+        print("Invalid movie page!")
+  learner_created: true
+- name: stage3.py
+  visible: true
+  learner_created: true
+- name: The_perfect_storm_lax_social_distancing_fuelled_a_coronavirus_variants_Brazilian_surge.txt
+  visible: true
+  learner_created: true
+- name: Antibodyladen_nasal_spray_could_provide_COVID_protection_—_and_treatment.txt
+  visible: true
+  learner_created: true
+- name: WHO_approval_of_Chinese_CoronaVac_COVID_vaccine_will_be_crucial_to_curbing_pandemic.txt
+  visible: true
+  learner_created: true
+- name: A_complete_human_genome_sequence_is_close_how_scientists_filled_in_the_gaps.txt
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/145/stages/784/implement#comment
-status: Unchecked
-record: -1
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 07 Jun 2021 16:02:06 UTC
+record: 4

@@ -27,17 +27,17 @@ for art in news:
     soup2 = BeautifulSoup(req_art.content, 'html.parser')
     if req_art.status_code == 200:
         # get title
-        title = soup2.find('h1', {'class':'c-article-magazine-title'}).get_text()
+        title = soup2.find('h1', {'class': 'c-article-magazine-title'}).get_text()
         # print(title)
         # format title
-        final_title = title.strip().translate(title.maketrans('','',string.punctuation)).replace('‘','').replace("’",
-                                                                                                     "").replace(' '
-                                                                                                                   '','_')
+        final_title = title.strip().translate(title.maketrans('', '', string.punctuation)).replace('‘', '').replace("’",
+                                                                                                                    "").replace(
+            ' '
+            '', '_')
         # print(f'{final_title}.txt')
 
-
         # get body
-        body = soup2.find('div', {'class':'c-article-body'}).text
+        body = soup2.find('div', {'class': 'c-article-body'}).text
         # print(body)
 
         # save to file
