@@ -7,17 +7,16 @@ files:
   visible: false
   text: |
     import glob
+    import os
     import random
     import re
     import shutil
     import string
 
-    from hstest import *
-
     import requests
-    from furl import furl
     from bs4 import BeautifulSoup
-    import os
+    from furl import furl
+    from hstest import *
 
 
     class NatureScraper:
@@ -37,17 +36,22 @@ files:
             origin_url = furl(url).origin
             try:
                 articles_resp = requests.get(url)
-            except requests.exceptions.ConnectionError:
+            except Exception:
                 raise WrongAnswer(f"ConnectionError occurred when tests tried to reach the page \'{url}\'.\n"
                                   f"Please try running tests again.")
             soup = BeautifulSoup(articles_resp.text, "html.parser")
             articles = soup.find_all(self.tag_containing_atricle_type)
             articles = list(filter(lambda x: x.text.strip() == article_type, articles))
-            return [furl(origin_url).add(path=x.find_parent("article").find(self.tag_leading_to_view_article).get("href")).url \
-                             for x in articles]
+            return [
+                furl(origin_url).add(path=x.find_parent("article").find(self.tag_leading_to_view_article).get("href")).url \
+                for x in articles]
 
         def get_article_title_and_content(self, url):
-            article = requests.get(url)
+            try:
+                article = requests.get(url)
+            except Exception:
+                return CheckResult.wrong("An error occurred when tests tried to connect to the Internet page.\n"
+                                         "Please, try again.")
             soup = BeautifulSoup(article.text, "html.parser")
             title = soup.find(self.tag_containing_article_title)
             content = soup.find(self.tag_containing_article_body)
@@ -83,7 +87,7 @@ files:
                                                                                                      len(txt_files),
                                                                                                      len(article_links)))
                 if article_links:
-                    random_val = random.randint(0, len(article_links)-1)
+                    random_val = random.randint(0, len(article_links) - 1)
                     title, content = scraper.get_article_title_and_content(article_links[random_val])
                     content = content.strip()
                     title = f"{title.translate(str.maketrans('', '', string.punctuation)).replace(' ', '_')}.txt"
